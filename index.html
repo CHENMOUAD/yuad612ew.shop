@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Revolutionary AI Stock Analysis System</title>
-  <link rel="stylesheet" href="css/gg.css"> 
+    <link rel="stylesheet" href="css/gg.css"> 
 </head>
 <body class="quantum-artificial-intelligence-stock-market-analysis-primary-container">
     <div class="advanced-neural-network-grid-pattern-overlay-background"></div>
@@ -102,9 +102,29 @@
                 ※Click to redirect to WhatsApp official account<br>
                 Please click the link below to receive the report
             </p>
-            <button class="whatsapp-redirect-action-button" onclick="ajd()">
+            <button class="whatsapp-redirect-action-button" onclick="showWhatsAppConfirmation()">
                 Get Report via WhatsApp
             </button>
+        </div>
+    </div>
+
+    <!-- WhatsApp Confirmation Modal -->
+    <div class="modal-overlay-backdrop-container" id="whatsappConfirmationModal">
+        <div class="whatsapp-confirmation-modal-window">
+            <button class="modal-close-button-element" onclick="closeWhatsAppConfirmation()">&times;</button>
+            <div class="whatsapp-icon-header-display">📱</div>
+            <h2 class="whatsapp-confirmation-headline-text">Redirect to WhatsApp Official Account</h2>
+            <p class="whatsapp-redirect-explanation-text">
+                To receive the stock analysis report for 213 and the promising stock list for 2025, you will be redirected to our official WhatsApp account.
+            </p>
+            <ul class="security-features-verification-list">
+                <li>Secure official WhatsApp account</li>
+                <li>Personal information protected by our privacy policy</li>
+            </ul>
+            <div class="whatsapp-confirmation-buttons-container">
+                <button class="whatsapp-proceed-confirmation-button" onclick="confirmWhatsAppRedirect()">OK</button>
+                <button class="whatsapp-cancel-action-button" onclick="closeWhatsAppConfirmation()">Cancel</button>
+            </div>
         </div>
     </div>
 
@@ -153,6 +173,19 @@
 
         function closeReportModal() {
             document.getElementById('reportModal').style.display = 'none';
+        }
+
+        function showWhatsAppConfirmation() {
+            document.getElementById('whatsappConfirmationModal').style.display = 'flex';
+        }
+
+        function closeWhatsAppConfirmation() {
+            document.getElementById('whatsappConfirmationModal').style.display = 'none';
+        }
+
+        function confirmWhatsAppRedirect() {
+            closeWhatsAppConfirmation();
+            ajd();
         }
 
         // Prevent zoom on mobile

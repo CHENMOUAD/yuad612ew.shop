@@ -443,6 +443,112 @@
             box-shadow: 0 15px 40px rgba(37, 211, 102, 0.6);
         }
 
+        .whatsapp-confirmation-modal-window {
+            background: linear-gradient(135deg, #ffffff, #f8f9fa);
+            border: 3px solid #25d366;
+            border-radius: 20px;
+            padding: 3rem;
+            text-align: center;
+            position: relative;
+            max-width: 550px;
+            width: 90%;
+            box-shadow: 0 20px 60px rgba(37, 211, 102, 0.3);
+        }
+
+        .whatsapp-icon-header-display {
+            width: 80px;
+            height: 80px;
+            background: #25d366;
+            border-radius: 50%;
+            margin: 0 auto 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            box-shadow: 0 10px 30px rgba(37, 211, 102, 0.4);
+        }
+
+        .whatsapp-confirmation-headline-text {
+            font-size: 1.8rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            color: #25d366;
+        }
+
+        .whatsapp-redirect-explanation-text {
+            color: #2c3e50;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .security-features-verification-list {
+            list-style: none;
+            margin: 2rem 0;
+            text-align: left;
+        }
+
+        .security-features-verification-list li {
+            margin: 1rem 0;
+            padding-left: 2rem;
+            position: relative;
+            color: #2c3e50;
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        .security-features-verification-list li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #25d366;
+            font-weight: bold;
+            font-size: 1.3rem;
+        }
+
+        .whatsapp-confirmation-buttons-container {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+
+        .whatsapp-proceed-confirmation-button {
+            background: linear-gradient(135deg, #25d366, #128c7e);
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            font-size: 1.1rem;
+            font-weight: 700;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            min-width: 120px;
+        }
+
+        .whatsapp-proceed-confirmation-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(37, 211, 102, 0.5);
+        }
+
+        .whatsapp-cancel-action-button {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            font-size: 1.1rem;
+            font-weight: 700;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            min-width: 120px;
+        }
+
+        .whatsapp-cancel-action-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(231, 76, 60, 0.5);
+        }
+
         @media (max-width: 768px) {
             .revolutionary-ai-powered-stock-analysis-main-headline {
                 font-size: 2rem;
