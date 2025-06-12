@@ -1,0 +1,566 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .quantum-artificial-intelligence-stock-market-analysis-primary-container {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: radial-gradient(ellipse at center, #0a0f1c 0%, #1a1f2e 25%, #0d1421 50%, #000712 100%);
+            color: #e8e9ea;
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+            background-attachment: fixed;
+        }
+
+        .advanced-neural-network-grid-pattern-overlay-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                linear-gradient(rgba(0, 255, 255, 0.1) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 255, 255, 0.1) 1px, transparent 1px);
+            background-size: 50px 50px;
+            z-index: 1;
+            animation: cybernetic-grid-pulse-animation 4s ease-in-out infinite;
+        }
+
+        @keyframes cybernetic-grid-pulse-animation {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 0.6; }
+        }
+
+        .sophisticated-machine-learning-header-navigation-section {
+            position: relative;
+            z-index: 10;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        .revolutionary-ai-powered-stock-analysis-main-headline {
+            font-size: 2.8rem;
+            font-weight: 900;
+            margin-bottom: 2rem;
+            background: linear-gradient(45deg, #00d4ff, #0099cc, #ffffff, #66ccff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
+            animation: futuristic-text-glow-enhancement 3s ease-in-out infinite alternate;
+        }
+
+        @keyframes futuristic-text-glow-enhancement {
+            0% { filter: brightness(1) drop-shadow(0 0 10px rgba(0, 212, 255, 0.3)); }
+            100% { filter: brightness(1.2) drop-shadow(0 0 20px rgba(0, 212, 255, 0.8)); }
+        }
+
+        .expert-financial-advisor-professional-portrait-container {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            margin: 0 auto 2rem;
+            border: 3px solid #00d4ff;
+            box-shadow: 0 0 30px rgba(0, 212, 255, 0.6);
+            overflow: hidden;
+            position: relative;
+            animation: holographic-portrait-rotation-effect 6s linear infinite;
+        }
+
+        @keyframes holographic-portrait-rotation-effect {
+            0% { box-shadow: 0 0 30px rgba(0, 212, 255, 0.6); }
+            33% { box-shadow: 0 0 30px rgba(255, 0, 128, 0.6); }
+            66% { box-shadow: 0 0 30px rgba(128, 255, 0, 0.6); }
+            100% { box-shadow: 0 0 30px rgba(0, 212, 255, 0.6); }
+        }
+
+        .expert-financial-advisor-professional-portrait-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .intelligent-algorithmic-stock-analysis-description-block {
+            font-size: 1.3rem;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+            color: #b8c5d6;
+            text-align: center;
+        }
+
+        .active-users-real-time-analytics-statistics-display {
+            background: linear-gradient(135deg, rgba(0, 212, 255, 0.1), rgba(255, 0, 128, 0.1));
+            border: 2px solid rgba(0, 212, 255, 0.3);
+            border-radius: 15px;
+            padding: 1rem;
+            margin: 2rem auto;
+            max-width: 600px;
+            text-align: center;
+            font-size: 1.1rem;
+            backdrop-filter: blur(10px);
+        }
+
+        .dynamic-stock-symbol-input-interaction-section {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(0, 212, 255, 0.08));
+            border-radius: 20px;
+            padding: 3rem 2rem;
+            margin: 3rem auto;
+            max-width: 700px;
+            border: 2px solid rgba(0, 212, 255, 0.2);
+            backdrop-filter: blur(15px);
+            position: relative;
+            z-index: 10;
+        }
+
+        .stock-ticker-symbol-input-field-container {
+            position: relative;
+            margin-bottom: 2rem;
+        }
+
+        .advanced-algorithmic-stock-ticker-input-element {
+            width: 100%;
+            padding: 1.2rem 1.5rem;
+            font-size: 1.2rem;
+            border: 2px solid #00d4ff;
+            border-radius: 12px;
+            background: rgba(10, 15, 28, 0.8);
+            color: #ffffff;
+            outline: none;
+            transition: all 0.3s ease;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .advanced-algorithmic-stock-ticker-input-element:focus {
+            border-color: #ff0080;
+            box-shadow: 0 0 20px rgba(255, 0, 128, 0.4);
+            background: rgba(10, 15, 28, 0.9);
+        }
+
+        .advanced-algorithmic-stock-ticker-input-element::placeholder {
+            color: #7a8499;
+            font-weight: 400;
+        }
+
+        .high-performance-ai-analysis-trigger-button {
+            width: 100%;
+            padding: 1.3rem 2rem;
+            font-size: 1.3rem;
+            font-weight: 800;
+            border: none;
+            border-radius: 15px;
+            background: linear-gradient(135deg, #ff0080, #ff4040, #ff8000);
+            color: white;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            animation: premium-cta-button-pulse-effect 2.5s infinite;
+        }
+
+        @keyframes premium-cta-button-pulse-effect {
+            0%, 100% { transform: scale(1); box-shadow: 0 8px 25px rgba(255, 0, 128, 0.4); }
+            50% { transform: scale(1.02); box-shadow: 0 12px 35px rgba(255, 0, 128, 0.7); }
+        }
+
+        .high-performance-ai-analysis-trigger-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+            transition: left 0.6s;
+        }
+
+        .high-performance-ai-analysis-trigger-button:hover::before {
+            left: 100%;
+        }
+
+        .high-performance-ai-analysis-trigger-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(255, 0, 128, 0.8);
+        }
+
+        .comprehensive-ai-capabilities-showcase-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 4rem auto;
+            max-width: 1200px;
+            padding: 0 1rem;
+            position: relative;
+            z-index: 10;
+        }
+
+        .individual-ai-feature-highlight-card {
+            background: linear-gradient(135deg, rgba(0, 212, 255, 0.1), rgba(128, 255, 0, 0.05));
+            border: 2px solid rgba(0, 212, 255, 0.2);
+            border-radius: 18px;
+            padding: 2rem;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .individual-ai-feature-highlight-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #00d4ff, #ff0080, #80ff00);
+            transform: translateX(-100%);
+            animation: feature-card-rainbow-sweep 4s infinite;
+        }
+
+        @keyframes feature-card-rainbow-sweep {
+            0% { transform: translateX(-100%); }
+            50% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+
+        .individual-ai-feature-highlight-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 50px rgba(0, 212, 255, 0.3);
+            border-color: #ff0080;
+        }
+
+        .ai-feature-performance-metric-headline {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: #00d4ff;
+        }
+
+        .detailed-ai-capability-description-text {
+            color: #b8c5d6;
+            line-height: 1.6;
+            font-size: 1rem;
+        }
+
+        .statistical-accuracy-performance-indicator {
+            background: linear-gradient(135deg, #00d4ff, #0099cc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 900;
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .comprehensive-regulatory-compliance-disclosure-footer {
+            background: linear-gradient(135deg, #1a1f2e, #0d1421);
+            padding: 3rem 1rem;
+            margin-top: 4rem;
+            border-top: 2px solid rgba(0, 212, 255, 0.2);
+            position: relative;
+            z-index: 10;
+        }
+
+        .critical-investment-risk-warning-notification {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffd700;
+        }
+
+        .critical-investment-risk-warning-notification::before {
+            content: '⚠️';
+            margin-right: 0.8rem;
+            font-size: 1.4rem;
+        }
+
+        .regulatory-financial-disclaimer-statements-list {
+            list-style: none;
+            margin: 1.5rem 0;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .regulatory-financial-disclaimer-statements-list li {
+            margin: 0.8rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+            color: #b8c5d6;
+            line-height: 1.5;
+        }
+
+        .regulatory-financial-disclaimer-statements-list li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: #00d4ff;
+            font-weight: bold;
+        }
+
+        .legal-privacy-terms-navigation-links {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(0, 212, 255, 0.2);
+        }
+
+        .privacy-policy-terms-service-hyperlink {
+            color: #00d4ff;
+            text-decoration: none;
+            margin: 0 1.5rem;
+            transition: color 0.3s ease;
+            font-weight: 600;
+        }
+
+        .privacy-policy-terms-service-hyperlink:hover {
+            color: #ff0080;
+            text-decoration: underline;
+        }
+
+        .modal-overlay-backdrop-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(5px);
+            z-index: 1000;
+            display: none;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .ai-analysis-progress-modal-window {
+            background: linear-gradient(135deg, #1a1f2e, #0d1421);
+            border: 2px solid #00d4ff;
+            border-radius: 20px;
+            padding: 3rem;
+            text-align: center;
+            position: relative;
+            max-width: 500px;
+            width: 90%;
+        }
+
+        .circular-progress-indicator-container {
+            width: 150px;
+            height: 150px;
+            margin: 2rem auto;
+            position: relative;
+        }
+
+        .animated-circular-progress-ring {
+            width: 150px;
+            height: 150px;
+            border: 8px solid rgba(0, 212, 255, 0.2);
+            border-top: 8px solid #00d4ff;
+            border-radius: 50%;
+            animation: infinite-rotation-spinner 1s linear infinite;
+        }
+
+        @keyframes infinite-rotation-spinner {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .progress-percentage-display-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 1.8rem;
+            font-weight: 900;
+            color: #00d4ff;
+        }
+
+        .ai-processing-status-description {
+            margin: 1.5rem 0;
+            color: #b8c5d6;
+            font-size: 1.1rem;
+        }
+
+        .modal-close-button-element {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            background: none;
+            border: none;
+            color: #ff0080;
+            font-size: 1.5rem;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .report-completion-modal-window {
+            background: linear-gradient(135deg, #1a1f2e, #0d1421);
+            border: 2px solid #00d4ff;
+            border-radius: 20px;
+            padding: 3rem;
+            text-align: center;
+            position: relative;
+            max-width: 600px;
+            width: 90%;
+        }
+
+        .report-ready-headline-text {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            color: #00d4ff;
+        }
+
+        .exclusive-report-access-description {
+            color: #b8c5d6;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .whatsapp-redirect-action-button {
+            background: linear-gradient(135deg, #25d366, #128c7e);
+            color: white;
+            border: none;
+            padding: 1.2rem 2.5rem;
+            font-size: 1.2rem;
+            font-weight: 700;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+        }
+
+        .whatsapp-redirect-action-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(37, 211, 102, 0.6);
+        }
+
+        .whatsapp-confirmation-modal-window {
+            background: linear-gradient(135deg, #ffffff, #f8f9fa);
+            border: 3px solid #25d366;
+            border-radius: 20px;
+            padding: 3rem;
+            text-align: center;
+            position: relative;
+            max-width: 550px;
+            width: 90%;
+            box-shadow: 0 20px 60px rgba(37, 211, 102, 0.3);
+        }
+
+        .whatsapp-icon-header-display {
+            width: 80px;
+            height: 80px;
+            background: #25d366;
+            border-radius: 50%;
+            margin: 0 auto 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            box-shadow: 0 10px 30px rgba(37, 211, 102, 0.4);
+        }
+
+        .whatsapp-confirmation-headline-text {
+            font-size: 1.8rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            color: #25d366;
+        }
+
+        .whatsapp-redirect-explanation-text {
+            color: #2c3e50;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .security-features-verification-list {
+            list-style: none;
+            margin: 2rem 0;
+            text-align: left;
+        }
+
+        .security-features-verification-list li {
+            margin: 1rem 0;
+            padding-left: 2rem;
+            position: relative;
+            color: #2c3e50;
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        .security-features-verification-list li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #25d366;
+            font-weight: bold;
+            font-size: 1.3rem;
+        }
+
+        .whatsapp-confirmation-buttons-container {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+
+        .whatsapp-proceed-confirmation-button {
+            background: linear-gradient(135deg, #25d366, #128c7e);
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            font-size: 1.1rem;
+            font-weight: 700;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            min-width: 120px;
+        }
+
+        .whatsapp-proceed-confirmation-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(37, 211, 102, 0.5);
+        }
+
+        .whatsapp-cancel-action-button {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            font-size: 1.1rem;
+            font-weight: 700;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            min-width: 120px;
+        }
+
+        .whatsapp-cancel-action-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(231, 76, 60, 0.5);
+        }
+
+        @media (max-width: 768px) {
+            .revolutionary-ai-powered-stock-analysis-main-headline {
+                font-size: 2rem;
+            }
+            
+            .comprehensive-ai-capabilities-showcase-section {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            
+            .dynamic-stock-symbol-input-interaction-section {
+                margin: 2rem 1rem;
+                padding: 2rem 1rem;
+            }
+        }
