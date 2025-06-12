@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Revolutionary AI Stock Analysis System</title>
+  <link rel="stylesheet" href="css/gg.css"> 
+</head>
+<body class="quantum-artificial-intelligence-stock-market-analysis-primary-container">
+    <div class="advanced-neural-network-grid-pattern-overlay-background"></div>
+    
+    <header class="sophisticated-machine-learning-header-navigation-section">
+        <h1 class="revolutionary-ai-powered-stock-analysis-main-headline">Revolutionary AI Stock Analysis System</h1>
+        
+        <div class="expert-financial-advisor-professional-portrait-container">
+            <img src="img/1.jpg" alt="AI Stock Analysis Expert">
+        </div>
+        
+        <p class="intelligent-algorithmic-stock-analysis-description-block">
+            Enter a stock symbol below and our AI system will complete the analysis within 2 seconds.
+        </p>
+        
+        <div class="active-users-real-time-analytics-statistics-display">
+            Currently 36,968 people are viewing complete reports for free
+        </div>
+    </header>
+
+    <section class="dynamic-stock-symbol-input-interaction-section">
+        <div class="stock-ticker-symbol-input-field-container">
+            <input type="text" class="advanced-algorithmic-stock-ticker-input-element" 
+                   placeholder="Enter Stock Symbol (e.g., AAPL, TSLA, MSFT)" 
+                   id="stockSymbolInput">
+        </div>
+        
+        <button class="high-performance-ai-analysis-trigger-button" onclick="initiateAIAnalysis()">
+            Analyze Stock with AI
+        </button>
+    </section>
+
+    <section class="comprehensive-ai-capabilities-showcase-section">
+        <div class="individual-ai-feature-highlight-card">
+            <div class="statistical-accuracy-performance-indicator">99.7%</div>
+            <h3 class="ai-feature-performance-metric-headline">Analysis Accuracy</h3>
+            <p class="detailed-ai-capability-description-text">Processing Time 2 seconds, 36,968 users utilizing</p>
+        </div>
+        
+        <div class="individual-ai-feature-highlight-card">
+            <h3 class="ai-feature-performance-metric-headline">Real-time Market Analysis</h3>
+            <p class="detailed-ai-capability-description-text">AI continuously monitors market data and identifies important trends</p>
+        </div>
+        
+        <div class="individual-ai-feature-highlight-card">
+            <h3 class="ai-feature-performance-metric-headline">News Sentiment Analysis</h3>
+            <p class="detailed-ai-capability-description-text">Analyzes the latest financial news and evaluates its impact on stock prices</p>
+        </div>
+        
+        <div class="individual-ai-feature-highlight-card">
+            <h3 class="ai-feature-performance-metric-headline">Advanced Pattern Recognition</h3>
+            <p class="detailed-ai-capability-description-text">Predicts price patterns and trends based on historical market data</p>
+        </div>
+    </section>
+
+    <footer class="comprehensive-regulatory-compliance-disclosure-footer">
+        <div class="critical-investment-risk-warning-notification">Important Risk Disclosure</div>
+        
+        <ul class="regulatory-financial-disclaimer-statements-list">
+            <li>This service only provides general market information and does not constitute any investment advice or recommendations.</li>
+            <li>Financial markets involve risks, and you may lose some or all of your investment principal.</li>
+            <li>All examples shown are historical data analysis and do not constitute any guarantee of future returns.</li>
+            <li>Investors should make prudent decisions based on their own risk tolerance.</li>
+            <li>All information is objective factual statements and does not constitute investment advice.</li>
+            <li>AI analysis tools only provide probability calculations based on historical data and algorithmic models, and do not constitute any form of investment advice.</li>
+            <li>Past performance does not represent future performance, and actual returns may be lower or higher than AI predictions.</li>
+        </ul>
+        
+        <div class="legal-privacy-terms-navigation-links">
+            <a href="privacy.html" class="privacy-policy-terms-service-hyperlink" target="_blank">Privacy Policy</a>
+            <a href="terms.html" class="privacy-policy-terms-service-hyperlink" target="_blank">Terms of Service</a>
+        </div>
+    </footer>
+
+    <!-- Progress Modal -->
+    <div class="modal-overlay-backdrop-container" id="progressModal">
+        <div class="ai-analysis-progress-modal-window">
+            <button class="modal-close-button-element" onclick="closeProgressModal()">&times;</button>
+            <h2>AI System Processing</h2>
+            <div class="circular-progress-indicator-container">
+                <div class="animated-circular-progress-ring"></div>
+                <div class="progress-percentage-display-text" id="progressText">0%</div>
+            </div>
+            <p class="ai-processing-status-description" id="statusText">AI system is combining: Market analysis, Latest news analysis, Historical data analysis</p>
+        </div>
+    </div>
+
+    <!-- Report Modal -->
+    <div class="modal-overlay-backdrop-container" id="reportModal">
+        <div class="report-completion-modal-window">
+            <button class="modal-close-button-element" onclick="closeReportModal()">&times;</button>
+            <h2 class="report-ready-headline-text">Your Stock Analysis Report is Complete</h2>
+            <p class="exclusive-report-access-description">
+                Get your personalized report and our exclusive 2025 Top 10 Stock Picks (PDF) - Free!<br>
+                ※Click to redirect to WhatsApp official account<br>
+                Please click the link below to receive the report
+            </p>
+            <button class="whatsapp-redirect-action-button" onclick="ajd()">
+                Get Report via WhatsApp
+            </button>
+        </div>
+    </div>
+
+    <script>
+        function ajd() {
+            window.open('https://wa.me/your-whatsapp-number', '_blank');
+        }
+
+        function initiateAIAnalysis() {
+            const stockInput = document.getElementById('stockSymbolInput');
+            if (!stockInput.value.trim()) {
+                alert('Please enter a stock symbol');
+                return;
+            }
+            
+            showProgressModal();
+        }
+
+        function showProgressModal() {
+            const modal = document.getElementById('progressModal');
+            const progressText = document.getElementById('progressText');
+            modal.style.display = 'flex';
+            
+            let progress = 0;
+            const interval = setInterval(() => {
+                progress += 5;
+                progressText.textContent = progress + '%';
+                
+                if (progress >= 100) {
+                    clearInterval(interval);
+                    setTimeout(() => {
+                        closeProgressModal();
+                        showReportModal();
+                    }, 500);
+                }
+            }, 100);
+        }
+
+        function closeProgressModal() {
+            document.getElementById('progressModal').style.display = 'none';
+        }
+
+        function showReportModal() {
+            document.getElementById('reportModal').style.display = 'flex';
+        }
+
+        function closeReportModal() {
+            document.getElementById('reportModal').style.display = 'none';
+        }
+
+        // Prevent zoom on mobile
+        document.addEventListener('gesturestart', function (e) {
+            e.preventDefault();
+        });
+
+        document.addEventListener('gesturechange', function (e) {
+            e.preventDefault();
+        });
+
+        document.addEventListener('gestureend', function (e) {
+            e.preventDefault();
+        });
+
+        // Close modals when clicking outside
+        window.addEventListener('click', function(e) {
+            const progressModal = document.getElementById('progressModal');
+            const reportModal = document.getElementById('reportModal');
+            
+            if (e.target === progressModal) {
+                closeProgressModal();
+            }
+            if (e.target === reportModal) {
+                closeReportModal();
+            }
+        });
+    </script>
+</body>
+</html>
